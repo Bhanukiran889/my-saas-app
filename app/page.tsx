@@ -7,7 +7,7 @@ import React from 'react'
 const Page = () => {
   return (
     <main>
-      <h1 className='text-2xl underline'>
+      <h1 className='text-2xl'>
         Popular Companions
       </h1>
       <section className='home-section'>
@@ -22,7 +22,7 @@ const Page = () => {
           id="456"
           name="Country the Number Wizard"
           topic="Derivatives & Integrals"
-          subject="science"
+          subject="Math"
           duration={45}
           color="#e5d0ff" />
         <CompanionCard
