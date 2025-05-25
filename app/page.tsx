@@ -1,14 +1,19 @@
-import { Button } from '@/components/ui/button'
+import CompanionCard from '@/components/CompanionCard';
+// import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const Page = () => {
   return (
-    <div>
+    <main>
       <h1 className='text-2xl underline'>
-        welcom to saas app
+        Popular Companions
       </h1>
-      <Button variant="secondary">Lets get started</Button>
-    </div>
+      <section className='home-section'>
+        <CompanionCard/>
+        <CompanionCard/>
+        <CompanionCard/>
+      </section>
+    </main>
   )
 }
 
