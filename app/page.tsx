@@ -34,7 +34,7 @@ const Page = () => {
           duration={45}
           color="#bde7ee" />
       </section>
-      <section>
+      <section className='home-section'>
         <CompanionsList 
         title="Recently completed sessions"
         companions={recentSessions}
