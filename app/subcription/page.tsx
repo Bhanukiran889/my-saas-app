@@ -1,8 +1,9 @@
+import { PricingTable } from "@clerk/nextjs"
 
 const page = () => {
   return (
     <div>
-      subcriptions
+      <PricingTable/>
     </div>
   )
 }
