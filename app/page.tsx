@@ -2,7 +2,6 @@ import CompanionCard from '@/components/CompanionCard';
 import CompanionsList from '@/components/CompanionsList';
 import CTA from '@/components/CTA';
 import { recentSessions } from '@/constants';
-// import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const Page = () => {
