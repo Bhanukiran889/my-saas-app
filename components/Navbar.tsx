@@ -50,7 +50,7 @@ const Navbar = () => {
               <button className="btn-signin">Sign In</button>
             </SignInButton>
             <SignUpButton>
-              <button className="btn-signup">Sign Up</button>
+              <button className="btn-signin">Sign Up</button>
             </SignUpButton>
           </div>
         </SignedOut>
