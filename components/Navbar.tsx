@@ -1,10 +1,9 @@
 "use client";
 
-
 import Link from "next/link";
 import Image from "next/image";
 import { SignInButton, SignUpButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
-import { useState } from "react";
+import {useState } from "react";
 import NavItems from "@/components/NavItems";
 
 const Navbar = () => {
@@ -28,7 +27,7 @@ const Navbar = () => {
           <div className="relative">
             <button
               onClick={() => setShowDropdown((prev) => !prev)}
-              className="btn-auth-toggle px-4 py-2 bg-black text-white rounded-md text-sm md:hidden"
+              className="btn-auth-toggle px-4 py-2 btn-primary text-white rounded-md text-sm md:hidden"
             >
               Account
             </button>
